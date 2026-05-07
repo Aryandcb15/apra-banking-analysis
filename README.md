@@ -31,6 +31,14 @@ of Australian finance analyst job listings.
 - Filtering and sorting with WHERE and ORDER BY
 - GROUP BY for Big 4 vs market comparison
 
+## Results
+The following CSV files contain the query outputs and can be viewed directly on GitHub:
+
+- `results_top10_banks_by_assets.csv` — Top 10 Australian banks ranked by total assets with market share %
+- `results_loan_to_asset_ratio.csv` — Loan to asset ratios across the top 10 banks
+- `results_investment_securities.csv` — Investment securities holdings and % of total assets
+- `results_big4_vs_market.csv` — Big 4 banks vs rest of market comparison
+
 ## Files
 - `setup_db.py` — loads APRA Excel data into a SQLite database
 - `queries.py` — analytical SQL queries with business insights
